@@ -1,4 +1,7 @@
-/* Hygga Style/Boho theme */
+/* Hygge Style/Boho theme 
+https://www.color-hex.com/color-palette/112953
+Color palette with RBG values
+*/
 *{
     
     margin: 0;
@@ -8,7 +11,7 @@
 
 
 .navbar{
-    background: #ADC178;
+    background: #cecca6;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -98,7 +101,7 @@
         z-index: -1;
     }
     .navbar_menu.active{
-        background: #ADC178;
+        background: #cecca6;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -145,3 +148,55 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+
+
+/* Hero Section(not responsive yet) */
+
+.main{
+background: #b6b48d;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.main_container{    
+    background: #b6b48d;
+}
+
+
+.upper-main_container {
+    display: flex;
+    justify-content: center;
+    max-height: 1fr;
+    max-width: 1fr;
+    background: #0e0d0d;
+}
+
+/*
+.upper-main_container {
+    align-self: center;
+    justify-self: center;
+    background: #444343;
+    height: 40vh;
+    width: 80vh;
+}
+*/
+
+.lower-main_container{
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.item{
+    max-height: 200px;
+    width: 1fr;
+    background: #312424;
+}
+
