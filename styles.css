@@ -206,3 +206,48 @@ align-content: center;
     background: #4b4b4b;
 }
 
+.stylist{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.stylist_container{
+    margin: 10px 10px;
+    max-height: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: flex-start;
+    row-gap: 15px;
+    column-gap: 15px;
+    background: #fff;
+}
+
+.stylist-item{
+    height: 2fr;
+    width: 2fr;
+    background: #4b4b4b;
+}
+
+
+
+
+
+
+/*About us section*/
+
+.aboutus {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.aboutus_container {
+    padding: 20px;
+}
