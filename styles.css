@@ -9,9 +9,14 @@ Color palette with RBG values
     font-family: 'georgia', sans-serif;
 }
 
+p {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
 
 .navbar{
-    background: #cecca6;
+    background: #a4a08a;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -101,7 +106,7 @@ Color palette with RBG values
         z-index: -1;
     }
     .navbar_menu.active{
-        background: #cecca6;
+        background: #a4a08a;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -237,6 +242,32 @@ align-content: center;
 
 
 
+/*Bio section*/
+
+.bio{
+    display: flex;
+    padding: 15px;
+}
+.bio_container{
+    justify-items: flex-start;
+    
+}
+.bio_text{
+    position: relative;
+}
+
+
+
+
+
+/*Formatting Images*/
+
+img {
+    max-width: 40%;
+    height: auto;
+}
+
+
 /*About us section*/
 
 .aboutus {
@@ -249,4 +280,15 @@ align-content: center;
 
 .aboutus_container {
     padding: 20px;
+}
+
+
+/*Footer section*/
+
+.footer_container{
+    padding: 15px;
+}
+
+.footer_content{
+    padding: 15px;
 }
