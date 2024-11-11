@@ -232,8 +232,8 @@ align-content: center;
 }
 
 .stylist-item{
-    height: 2fr;
-    width: 2fr;
+    height: auto;
+    width: auto;
     background: #4b4b4b;
 }
 
