@@ -76,7 +76,7 @@ p {
     .navbar_container{
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 65px;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -91,7 +91,7 @@ p {
         top: -1000px;
         opacity: 0;
         transition: all 0.5s ease;
-        height: 50vh;
+        height: 20vh;
         z-index: -1;
     }
     .navbar_menu.active{
@@ -115,6 +115,7 @@ p {
     }
     .navbar_item{
         width: 100%;
+        height: 15px;
     }
     .navbar_links{
         text-align: center;
@@ -146,12 +147,22 @@ p {
     p{
         font-size: 10px;
     }
-    .big{
-        
+    .main{
+        max-height: 30%;
+        width: 100%;
+        max-width: 960px;
     }
-    .salon{
-        max-height: 50%;
-        
+    
+    .big{
+        width: 100%;
+    }
+
+    .upper-main_container{
+        width: 100%;
+    }
+
+    #href1{
+        font-size: 10px;
     }
 }
 
@@ -180,22 +191,25 @@ align-content: center;
 .upper-main_container {
     display: flex;
     justify-content: center;
-    max-height: 1fr;
-    max-width: 1fr;
+    max-height: 50vh;
+    width: 100%;
+    max-width: 1300px;
     background: #fff;
+    padding: 10px 10px;
+
 }
 
 
 .big{
     display: flex;
-    margin: 10px 10px;
     align-self: center;
     justify-self: center;
     align-content: center;
     justify-content: center;
     /*background: rgb(234,221,202);*/
-    height: 70vh;
-    width: 200vh;
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
 }
 
 .salon{
@@ -206,7 +220,8 @@ align-content: center;
 .lower-main_container{
     margin: 10px 10px;
     min-height: 50vh;
-    max-width: 200vh;
+    width: 100%;
+    max-width: 1300px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
